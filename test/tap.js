@@ -32,7 +32,7 @@ describe("tap", function() {
       }
     });
 
-    reader.write(Buffer([0x01, 0x01]));
+    reader.write(Buffer.from([0x01, 0x01]));
   });
 
   it("should populate child objects correctly", function(done) {
@@ -58,6 +58,6 @@ describe("tap", function() {
       done();
     });
 
-    reader.write(Buffer([0x01, 0x01]));
+    reader.write(Buffer.from([0x01, 0x01]));
   });
 });

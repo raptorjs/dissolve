@@ -1,25 +1,22 @@
 {
-  "name": "dissolve",
+  "name": "raptor-dissolve",
   "version": "0.3.3",
   "description": "Parse and consume binary streams with a neat DSL",
   "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0 <=5"
-  },
   "scripts": {
     "test": "mocha -R spec"
   },
   "dependencies": {
-    "bl": "^1.0.0",
-    "readable-stream": "^2.0.0"
+    "bl": "^6.0.2",
+    "readable-stream": "^4.4.0"
   },
   "devDependencies": {
-    "chai": "^3.0.0",
-    "mocha": "^2.1.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/dissolve.git"
+    "url": "git@github.com:raptorjs/dissolve.git"
   },
   "keywords": [
     "dissolve",
