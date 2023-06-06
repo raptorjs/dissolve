@@ -1,6 +1,8 @@
 Dissolve
 ========
 
+This is a fork of https://github.com/deoxxa/dissolve with minor updates.
+
 Parse and consume binary streams with a neat DSL.
 
 Overview
